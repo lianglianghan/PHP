@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0 auto;
+	}
+.daohang{
+     width:1351px;
+	 height:31px;
+	 background-color:white;
+
+}
+div.zhuce{
+	width:990px;
+	height:500px;
+	background-color:white;
+	position:absolute;
+	left:180px;
+	margin-top:140px;
+}
+div.logo{
+	width:500px;
+	height:64px;
+	position:absolute;
+	left:50px;
+	top:10px;
+}
+div.xinxi{
+	width:500px;
+	height:392px;
+	float:left;
+	position:absolute;
+	margin-left:100px;
+	margin-top:30px;
+}
+	
+div.save{
+	width:90px;
+	height:35px;
+	position:absolute;
+	left:180px;
+    top:6px;
+}
+div.p1,div.p2,div.p3,div.p4,div.p5{
+	color:#999999;
+	font-family:"宋体";
+}
+
+div.picture_shouji{
+	width:344px;
+	height:310px;
+	float:right;
+	margin-top:100px;
+}
+div.welcome{
+	float:right;
+	margin-right:300px;
+	margin-top:6px;
+}

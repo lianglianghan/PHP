@@ -1,0 +1,132 @@
+body{
+	margin: 0 auto;
+}
+
+div.navigate {
+	width: 1340px;
+	height: 50px;
+	/*background-color: pink;*/
+	background-color:#FFFFFF;
+	margin-left: 5px;
+	margin-right: 5px;
+	top: 0px;
+	/*注意：position的fixed可以实现原来的位置不变（导航条不随页面的滚动而滚动）*/
+	position: fixed;
+}
+
+div.manage a {
+	text-decoration: none;
+}
+
+div.logo {
+	width: 200px;
+	height: 50px;
+	/*background-color: #3FC;*/
+	float: left;
+}
+
+div.logo img{
+	width: 180px;
+}
+
+div.search {
+	width: 540px;
+	height: 50px;
+	background-color: #D41420;
+	float: left;
+	margin-left: 200px;
+}
+
+div.search input.input {
+	width: 350px;
+	height: 42px;
+	/*margin-left:20px;*/
+	margin-top: 3px;
+	margin-bottom: 3px;
+	float: left;
+	border: 0;
+}
+
+div.search span.treasure {
+	width: 100px;
+	height: 44px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	float: left;
+	background-color: #F6F6F6;
+	text-align: center;
+	vertical-align: bottom;
+	line-height: 44px;
+}
+
+div.search span.mysearch {
+	width: 70px;
+	height: 44px;
+	/*margin-left:20px;*/
+	margin-top: 3px;
+	margin-bottom: 3px;
+	float: left;
+	background-color: #D41420;
+	text-align: center;
+	vertical-align: bottom;
+	line-height: 44px;
+	color: white;
+}
+
+div.login {
+	width: 80px;
+	height: 50px;
+	/*background-color: #F33;*/
+	margin-left: 100px;
+	float: left;
+}
+
+div.register{
+	width: 80px;
+	height: 50px;
+	/*background-color: #F33;*/
+	margin-left: 3px;
+	float: left;
+}
+
+div.manage {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 20px;
+	display: none;
+	/*background-color: green;*/
+	left: 1050px;
+	background-color: #FFFFFF;
+	
+}
+
+div.manage a{
+	color: #6C6C6C;
+}
+
+
+
+.login span,.assistant span,.register span {
+	width: 100px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+div.assistant {
+	width: 100px;
+	height: 50px;
+	/*background-color: #CC0;*/
+	margin-left: 5px;
+	float: left;
+}
+
+div.assistant span{
+	cursor: pointer;
+	color: #6C6C6C;
+}
+

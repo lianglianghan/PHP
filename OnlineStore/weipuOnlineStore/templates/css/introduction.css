@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.daohang{
+    width:1340px;
+	height:50px;
+	background-color:#F3BE1B;
+	top:0px;
+	/*注意：position的fixed可以实现原来的位置不变（导航条不随页面的滚动而滚动）*/
+	position:fixed;
+}
+div.beijing{
+	width:770px;
+	height:2000px;
+	float:left;
+	margin-left:285px;
+	background-color:white;
+	margin-top:53px;
+}
+
+div.sptp{
+	width:310px;
+	height:310px;
+	float:left;
+	margin-left:35px;
+	background-color:blue;
+}
+div.spxx{
+	width:310px;
+	height:310px;
+	float:left;
+	margin-left:35px;
+	background-color:gray;
+}
+
+div.spmc{
+	width:310px;
+	height:50px;
+	float:left;
+	margin-left:0px;
+	background-color:pink;
+}
+div.jgsl{
+	width:310px;
+	height:190px;
+	float:left;
+	margin-top:5px;
+	background-color:orange;
+}
+div.an{
+	float:left;
+	margin-left:75px;
+	margin-top:10px;
+}
+.sets{
+	width:770px;
+	height:800px;
+	background-color:#7CF574;
+	margin-top:5px;
+	float:left;
+}
+.sets .title{
+	width:770px;
+	height:60px;
+	background-color:#553226;
+}
+.sets .title span{
+	float:left;
+	width:200px;
+	height:60px;
+	line-height:60px;
+	/*background-color:green;*/
+	margin-right:20px;
+	margin-left:28px;
+	text-align:center;
+	color:white;
+	
+}
+.sets .title span:HOVER{
+	/*background-color:#E12B36;*/
+	cursor: pointer;
+}
+
+.sets .title span.spxq{
+	background-color:#E12B36;
+}
+.sets .shop{
+	width:770px;
+	height:700px;
+	margin-left:0px;
+	margin-top:10px;
+	background-color:cyan;
+	display:block;
+}
+.sets .pl{
+	width:770px;
+	height:700px;
+	margin-left:0px;
+	margin-top:10px;
+	background-color:silver;
+	display:none;
+}

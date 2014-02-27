@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	}
+.daohang{
+     width:1351px;
+	 height:31px;
+	 background-color:white;
+
+}
+div.logo{
+	width:500px;
+	height:64px;
+	position:absolute;
+	left:80px;
+	top:20px;
+	float: left;
+}
+div.welcome{
+	float:left;
+	margin-right:0px;
+	margin-top:6px;
+}
+div.save{
+	width:90px;
+	height:35px;
+	position:absolute;
+	left:180px;
+    top:6px;
+}
+div.dingdan{
+	float:right;
+	margin-right:20px;
+	margin-top:6px;
+}
+div.kefu{
+	float:right;
+	margin-right:200px;
+	margin-top:6px;
+}
+div.dianpu{
+    width:990px;
+	height:450px;
+	background-color:white;
+	position:absolute;
+	left:180px;
+	margin-top:180px;
+}
+div.submit{
+	float:right;
+	margin-right:550px;
+    margin-top:50px;
+}
+div.touxiang{
+	width:100px;
+	height:140px;
+	float:right;
+	margin-right:150px;
+	margin-top:50px;
+	/*background-color:red;*/
+	/*border: 1px solid silver;*/
+}

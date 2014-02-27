@@ -1,0 +1,38 @@
+
+/*中间的广告部分*/
+.myimgs {
+	width: 700px;
+	height: 450px;
+	float:left;
+	background-color: cyan;
+	margin-top:40px;
+	margin-left:20px;
+	
+}
+/*控制中间图片*/
+.myimgs img.center {
+	width: 700px;
+	height: 450px;
+}
+
+/*控制左边图片*/
+.myimgs img.left {
+	width: 40px;
+	height:40px;
+	background-color:silver;
+	left:320px;
+	top:280px;
+	position: absolute;
+	display: none;
+	
+}
+/*控制右边图片*/
+.myimgs img.right {
+	width: 40px;
+	height:40px;
+	color:blue;
+	left:980px;
+	top:280px;
+	position: absolute;
+	display: none;
+}
